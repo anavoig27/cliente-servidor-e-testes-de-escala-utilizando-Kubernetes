@@ -1,0 +1,1563 @@
+Configurando numero de mensagens como 1
+deployment.apps/chat-server scaled
+Deploying 2 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 10
+Total received: 10
+Total elapsed time (s): .0020543
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 20
+Total received: 20
+Total elapsed time (s): .0039590
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 30
+Total received: 30
+Total elapsed time (s): .0056246
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 40
+Total received: 40
+Total elapsed time (s): .0075041
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 50
+Total received: 50
+Total elapsed time (s): .0090616
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 60
+Total received: 60
+Total elapsed time (s): .0126057
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 70
+Total received: 70
+Total elapsed time (s): .0126793
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 80
+Total received: 80
+Total elapsed time (s): .0147699
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 90
+Total received: 90
+Total elapsed time (s): .0163583
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0186136
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 4 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 10
+Total received: 10
+Total elapsed time (s): .0022835
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 20
+Total received: 20
+Total elapsed time (s): .0040551
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 30
+Total received: 30
+Total elapsed time (s): .0056659
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 40
+Total received: 40
+Total elapsed time (s): .0072471
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 50
+Total received: 50
+Total elapsed time (s): .0095047
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 60
+Total received: 60
+Total elapsed time (s): .0110505
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 70
+Total received: 70
+Total elapsed time (s): .0137383
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 80
+Total received: 80
+Total elapsed time (s): .0146577
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 90
+Total received: 90
+Total elapsed time (s): .0159585
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0240522
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 6 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 10
+Total received: 10
+Total elapsed time (s): .0021112
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 20
+Total received: 20
+Total elapsed time (s): .0039252
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 30
+Total received: 30
+Total elapsed time (s): .0056853
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 40
+Total received: 40
+Total elapsed time (s): .0077508
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 50
+Total received: 50
+Total elapsed time (s): .0093391
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 60
+Total received: 60
+Total elapsed time (s): .0113213
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 70
+Total received: 70
+Total elapsed time (s): .0129871
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 80
+Total received: 80
+Total elapsed time (s): .0143351
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 90
+Total received: 90
+Total elapsed time (s): .0165060
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0188970
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 8 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 10
+Total received: 10
+Total elapsed time (s): .0023061
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 20
+Total received: 20
+Total elapsed time (s): .0040383
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 30
+Total received: 30
+Total elapsed time (s): .0061477
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 40
+Total received: 40
+Total elapsed time (s): .0073722
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 50
+Total received: 50
+Total elapsed time (s): .0095827
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 60
+Total received: 60
+Total elapsed time (s): .0110887
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 70
+Total received: 70
+Total elapsed time (s): .0127270
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 80
+Total received: 80
+Total elapsed time (s): .0148689
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 90
+Total received: 90
+Total elapsed time (s): .0170470
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0184469
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 10 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 10
+Total received: 8
+Total elapsed time (s): .0018065
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 20
+Total received: 20
+Total elapsed time (s): .0040637
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 30
+Total received: 30
+Total elapsed time (s): .0060592
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 40
+Total received: 40
+Total elapsed time (s): .0077073
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 50
+Total received: 50
+Total elapsed time (s): .0095739
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 60
+Total received: 60
+Total elapsed time (s): .0109825
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 70
+Total received: 70
+Total elapsed time (s): .0128954
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 80
+Total received: 80
+Total elapsed time (s): .0145808
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 90
+Total received: 90
+Total elapsed time (s): .0164708
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0187827
+-------------------------------------------------------------
+Configurando numero de mensagens como 10
+deployment.apps/chat-server scaled
+Deploying 2 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 100
+Total received: 70
+Total elapsed time (s): .0031598
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 200
+Total received: 200
+Total elapsed time (s): .0090294
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 300
+Total received: 300
+Total elapsed time (s): .0134089
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 400
+Total received: 400
+Total elapsed time (s): .0196151
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 500
+Total received: 500
+Total elapsed time (s): .0222621
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 600
+Total received: 600
+Total elapsed time (s): .0270275
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 700
+Total received: 700
+Total elapsed time (s): .0308653
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 800
+Total received: 800
+Total elapsed time (s): .0375338
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 900
+Total received: 900
+Total elapsed time (s): .0411940
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0450811
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 4 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0046743
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 200
+Total received: 200
+Total elapsed time (s): .0091317
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 300
+Total received: 300
+Total elapsed time (s): .0145857
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 400
+Total received: 400
+Total elapsed time (s): .0173410
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 500
+Total received: 500
+Total elapsed time (s): .0227485
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 600
+Total received: 600
+Total elapsed time (s): .0280279
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 700
+Total received: 700
+Total elapsed time (s): .0338424
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 800
+Total received: 800
+Total elapsed time (s): .0375815
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 900
+Total received: 900
+Total elapsed time (s): .0425217
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0457446
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 6 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0047349
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 200
+Total received: 200
+Total elapsed time (s): .0101425
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 300
+Total received: 300
+Total elapsed time (s): .0140369
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 400
+Total received: 400
+Total elapsed time (s): .0192778
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 500
+Total received: 500
+Total elapsed time (s): .0229645
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 600
+Total received: 600
+Total elapsed time (s): .0285653
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 700
+Total received: 700
+Total elapsed time (s): .0312155
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 800
+Total received: 800
+Total elapsed time (s): .0381819
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 900
+Total received: 900
+Total elapsed time (s): .0409718
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0488078
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 8 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0048468
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 200
+Total received: 200
+Total elapsed time (s): .0104553
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 300
+Total received: 300
+Total elapsed time (s): .0144616
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 400
+Total received: 400
+Total elapsed time (s): .0176858
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 500
+Total received: 500
+Total elapsed time (s): .0243797
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 600
+Total received: 600
+Total elapsed time (s): .0271444
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 700
+Total received: 700
+Total elapsed time (s): .0328501
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 800
+Total received: 800
+Total elapsed time (s): .0369363
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 900
+Total received: 900
+Total elapsed time (s): .0415156
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0487680
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 10 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 100
+Total received: 100
+Total elapsed time (s): .0051630
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 200
+Total received: 200
+Total elapsed time (s): .0093294
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 300
+Total received: 300
+Total elapsed time (s): .0139083
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 400
+Total received: 400
+Total elapsed time (s): .0182293
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 500
+Total received: 500
+Total elapsed time (s): .0235570
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 600
+Total received: 570
+Total elapsed time (s): .0261167
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 700
+Total received: 700
+Total elapsed time (s): .0322412
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 800
+Total received: 800
+Total elapsed time (s): .0368719
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 900
+Total received: 900
+Total elapsed time (s): .0405887
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0449662
+-------------------------------------------------------------
+Configurando numero de mensagens como 100
+deployment.apps/chat-server scaled
+Deploying 2 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0282271
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 2000
+Total received: 2000
+Total elapsed time (s): .0578375
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 3000
+Total received: 3000
+Total elapsed time (s): .0904726
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 4000
+Total received: 4000
+Total elapsed time (s): .1105710
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 5000
+Total received: 5000
+Total elapsed time (s): .1543223
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 6000
+Total received: 6000
+Total elapsed time (s): .1775366
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 7000
+Total received: 7000
+Total elapsed time (s): .2125474
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 8000
+Total received: 8000
+Total elapsed time (s): .2535301
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 9000
+Total received: 9000
+Total elapsed time (s): .2788118
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 2 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 10000
+Total received: 10000
+Total elapsed time (s): .3226992
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 4 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0275306
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 2000
+Total received: 2000
+Total elapsed time (s): .0635137
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 3000
+Total received: 3000
+Total elapsed time (s): .0928020
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 4000
+Total received: 4000
+Total elapsed time (s): .1181386
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 5000
+Total received: 5000
+Total elapsed time (s): .1500770
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 6000
+Total received: 6000
+Total elapsed time (s): .1864612
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 7000
+Total received: 7000
+Total elapsed time (s): .2209089
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 8000
+Total received: 8000
+Total elapsed time (s): .2344901
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 9000
+Total received: 9000
+Total elapsed time (s): .2695373
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 4 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 10000
+Total received: 10000
+Total elapsed time (s): .3001420
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 6 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 1000
+Total received: 1000
+Total elapsed time (s): .0302660
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 2000
+Total received: 2000
+Total elapsed time (s): .0634407
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 3000
+Total received: 3000
+Total elapsed time (s): .0853928
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 4000
+Total received: 4000
+Total elapsed time (s): .1240287
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 5000
+Total received: 5000
+Total elapsed time (s): .1528186
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 6000
+Total received: 6000
+Total elapsed time (s): .1827499
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 7000
+Total received: 7000
+Total elapsed time (s): .2022893
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 8000
+Total received: 8000
+Total elapsed time (s): .2486197
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 9000
+Total received: 9000
+Total elapsed time (s): .2802048
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 6 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 10000
+Total received: 10000
+Total elapsed time (s): .3088556
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 8 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 1000
+Total received: 800
+Total elapsed time (s): .0226389
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 2000
+Total received: 2000
+Total elapsed time (s): .0658109
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 3000
+Total received: 3000
+Total elapsed time (s): .0899595
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 4000
+Total received: 4000
+Total elapsed time (s): .1160048
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 5000
+Total received: 5000
+Total elapsed time (s): .1520475
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 6000
+Total received: 6000
+Total elapsed time (s): .1742580
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 7000
+Total received: 7000
+Total elapsed time (s): .2059643
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 8000
+Total received: 8000
+Total elapsed time (s): .2430913
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 9000
+Total received: 9000
+Total elapsed time (s): .2715782
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 8 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 10000
+Total received: 10000
+Total elapsed time (s): .3018803
+-------------------------------------------------------------
+deployment.apps/chat-server scaled
+Deploying 10 servidor(es)...
+deployment.apps/chat-server scaled
+deployment.apps/chat-server condition met
+Rodando teste com 10 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 10 clientes:
+Total sent: 1000
+Total received: 900
+Total elapsed time (s): .0290599
+-------------------------------------------------------------
+Rodando teste com 20 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 20 clientes:
+Total sent: 2000
+Total received: 2000
+Total elapsed time (s): .0616040
+-------------------------------------------------------------
+Rodando teste com 30 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 30 clientes:
+Total sent: 3000
+Total received: 3000
+Total elapsed time (s): .0912511
+-------------------------------------------------------------
+Rodando teste com 40 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 40 clientes:
+Total sent: 4000
+Total received: 4000
+Total elapsed time (s): .1199970
+-------------------------------------------------------------
+Rodando teste com 50 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 50 clientes:
+Total sent: 5000
+Total received: 5000
+Total elapsed time (s): .1493531
+-------------------------------------------------------------
+Rodando teste com 60 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 60 clientes:
+Total sent: 6000
+Total received: 6000
+Total elapsed time (s): .1805561
+-------------------------------------------------------------
+Rodando teste com 70 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 70 clientes:
+Total sent: 7000
+Total received: 7000
+Total elapsed time (s): .2115391
+-------------------------------------------------------------
+Rodando teste com 80 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 80 clientes:
+Total sent: 8000
+Total received: 8000
+Total elapsed time (s): .2383310
+-------------------------------------------------------------
+Rodando teste com 90 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 90 clientes:
+Total sent: 9000
+Total received: 9000
+Total elapsed time (s): .2740157
+-------------------------------------------------------------
+Rodando teste com 100 cliente(s) para 10 servidor(es)...
+job.batch "client-job" deleted
+job.batch/client-job created
+job.batch/client-job condition met
+Processando logs dos clientes...
+Resultados agregados para 100 clientes:
+Total sent: 10000
+Total received: 10000
+Total elapsed time (s): .2997566
+-------------------------------------------------------------

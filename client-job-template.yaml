@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: client-job
+spec:
+  completions: ${NUM_CLIENTS}
+  parallelism: ${NUM_CLIENTS}
+  template:
+    spec:
+      containers:
+      - name: chat-cliente
+        image: chat-cliente
+        imagePullPolicy: Never
+        env:
+        - name: USERNAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: NUM_MSG_PER_CLIENTE
+          value: "${NUM_MSG}"
+      restartPolicy: Never
