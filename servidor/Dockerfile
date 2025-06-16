@@ -1,9 +1,0 @@
-FROM python:3.11-slim
-
-WORKDIR /app
-
-COPY servidor.py .
-
-EXPOSE 12345
-
-CMD ["python", "servidor.py"]
