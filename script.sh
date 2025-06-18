@@ -2,6 +2,7 @@ SERVER_HOST="chat-server"
 SERVER_PORT=12345
 JOB_TEMPLATE="client-job-template.yaml"
 
+echo "num_msg , servidores, clientes, total_elapsed" > resultados_cpp.csv
 
 for num_msg in 1 10 100; do
     echo "Configurando numero de mensagens como $num_msg"
@@ -59,7 +60,10 @@ for num_msg in 1 10 100; do
             echo "Total sent: $total_sent"
             echo "Total received: $total_received"
             echo "Total elapsed time (s): $total_elapsed"
-    
+
+            echo "Configurando com $servidores servidores e $clientes clientes (num_msg=$num_msg)" >> resultados_cpp.txt
+            echo "$num_msg , $servidores, $clientes, $total_elapsed" >> resultados_cpp.csv
+   
             echo "-------------------------------------------------------------"
         done
     done

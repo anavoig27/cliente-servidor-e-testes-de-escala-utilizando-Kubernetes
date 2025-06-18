@@ -7,16 +7,21 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <netdb.h>
-#include <cstdlib>
-#include <sstream>  
+#include <sstream>
 #include <chrono>
 #include <iomanip>
+#include <fstream>
+#include <thread>
+#include <vector>
+#include <mutex>
 
-
-
-const char* SERVER_HOST = "chat-server";
-const int SERVER_PORT = 12345;
+const char* SERVER_HOST = "192.168.49.2";  // Ajusta aqui o IP do seu servidor
+const int SERVER_PORT = 32633;             // Ajusta a porta do servidor
 int MESSAGES_PER_CLIENT = 10;
+int NUM_CLIENTS = 5;
+
+std::mutex log_mutex;
+std::mutex print_mutex;
 
 int get_env_int(const char* name, int fallback) {
     const char* val = std::getenv(name);
@@ -33,14 +38,14 @@ int connect_to_server(const char* host, int port) {
     int sock = -1;
 
     std::memset(&hints, 0, sizeof(hints));
-    hints.ai_family = AF_INET;        // IPv4
-    hints.ai_socktype = SOCK_STREAM;  // TCP
+    hints.ai_family = AF_INET;
+    hints.ai_socktype = SOCK_STREAM;
 
-    // Convert port to string
     std::string port_str = std::to_string(port);
 
     int status = getaddrinfo(host, port_str.c_str(), &hints, &res);
     if (status != 0) {
+        std::lock_guard<std::mutex> lock(print_mutex);
         std::cerr << "Erro em getaddrinfo: " << gai_strerror(status) << "\n";
         return -1;
     }
@@ -50,7 +55,7 @@ int connect_to_server(const char* host, int port) {
         if (sock == -1) continue;
 
         if (connect(sock, p->ai_addr, p->ai_addrlen) == 0) {
-            break; // Sucesso
+            break;
         }
 
         close(sock);
@@ -58,11 +63,6 @@ int connect_to_server(const char* host, int port) {
     }
 
     freeaddrinfo(res);
-
-    if (sock == -1) {
-        std::cerr << "Falha ao conectar ao servidor\n";
-    }
-
     return sock;
 }
 
@@ -78,61 +78,82 @@ std::string recv_msg(int sock) {
     return std::string(buffer, valread);
 }
 
-int run_client(std::string& username) {
-    int sock = connect_to_server(SERVER_HOST, SERVER_PORT);
-    if (sock < 0) return 1;
-
-    srand(time(nullptr));
-
-
-    // Enviar mensagens de autenticação com métricas
-    int received_count = 0;
-    std::chrono::duration<double> elapsed{0.0};
-    
-
-    for (int i = 0; i < MESSAGES_PER_CLIENT; ++i) {
-        
-        std::string msg = "Requisicao " + std::to_string(i+1) + " de " + std::to_string(MESSAGES_PER_CLIENT) + "\n";
-
-        auto start = std::chrono::high_resolution_clock::now();
-        if (!send_msg(sock, msg)) {
-            std::cerr << "[" << username << "] Erro ao enviar mensagem\n";
-            break;
-        }
-        
-        std::string response = recv_msg(sock);
-        if (response.empty()) {
-            break;
-        }
-        
-        auto end = std::chrono::high_resolution_clock::now();
-        std::chrono::duration<double, std::milli> diff = end - start;
-        std::cout << std::fixed << std::setprecision(9);
-        std::cout << "Ping para Servidor, seq=" + std::to_string(i+1) +", time=" + std::to_string(diff.count() * 1000) +" (ms)\n";
-        elapsed += diff;
-        received_count++;
-
-    }
-        
-    std::cout << "[" << username << "] Total sent: " << MESSAGES_PER_CLIENT << "\n";
-    std::cout << "[" << username << "] Total received: " << received_count << "\n";
-    std::cout << std::fixed << std::setprecision(3);
-    std::cout << "[" << username << "] Elapsed time: " << elapsed.count() << "\n";
-
-    close(sock);
-    return 0;
+void safe_print(const std::string& msg) {
+    std::lock_guard<std::mutex> lock(print_mutex);
+    std::cout << msg << std::endl;
 }
 
+void run_client(std::string username, std::vector<std::string>& results) {
+    int sock = connect_to_server(SERVER_HOST, SERVER_PORT);
+    if (sock < 0) {
+        std::lock_guard<std::mutex> lock(log_mutex);
+        results.push_back(username + ",0,0,0.000000");
+        safe_print("[" + username + "] Falha ao conectar ao servidor.");
+        return;
+    }
 
-int main(int argc, char* argv[]) {
-    std::string username = std::getenv("USERNAME") ? std::getenv("USERNAME") : "user-unknown";
-    int messages_to_send = get_env_int("NUM_MSG_PER_CLIENTE", 10);
+    int received_count = 0;
+    std::chrono::duration<double> elapsed{0.0};
 
-    MESSAGES_PER_CLIENT = messages_to_send;
+    for (int i = 0; i < MESSAGES_PER_CLIENT; ++i) {
+        std::string msg = "Requisicao " + std::to_string(i + 1) + " de " + std::to_string(MESSAGES_PER_CLIENT);
 
-    std::cout << "Executando cliente com username: " << username << std::endl;
+        auto start = std::chrono::high_resolution_clock::now();
 
-    int result = run_client(username);
+        if (!send_msg(sock, msg)) {
+            safe_print("[" + username + "] Erro ao enviar mensagem.");
+            break;
+        }
 
-    return result;
+        std::string response = recv_msg(sock);
+        if (response.empty()) {
+            safe_print("[" + username + "] Servidor fechou a conexão.");
+            break;
+        }
+
+        auto end = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> diff = end - start;
+
+        safe_print("[" + username + "] Ping seq=" + std::to_string(i + 1) + ", time=" + std::to_string(diff.count() * 1000) + " ms");
+        elapsed += diff;
+        received_count++;
+    }
+
+    close(sock);
+
+    // Salva resultado com proteção do mutex
+    {
+        std::lock_guard<std::mutex> lock(log_mutex);
+        std::ostringstream oss;
+        oss << username << "," << MESSAGES_PER_CLIENT << "," << received_count << "," << std::fixed << std::setprecision(6) << elapsed.count();
+        results.push_back(oss.str());
+    }
+}
+
+int main() {
+    MESSAGES_PER_CLIENT = get_env_int("NUM_MSG_PER_CLIENTE", 10);
+    NUM_CLIENTS = get_env_int("NUM_CLIENTS", 5);
+
+    std::vector<std::thread> threads;
+    std::vector<std::string> results;
+
+    for (int i = 0; i < NUM_CLIENTS; ++i) {
+        std::string username = "user-" + std::to_string(i);
+        threads.emplace_back(run_client, username, std::ref(results));
+    }
+
+    for (auto& t : threads) {
+        t.join();
+    }
+
+    // Salvar log no CSV
+    std::ofstream log_file("log_clientes_cpp.csv");
+    log_file << "username,mensagens_enviadas,mensagens_recebidas,tempo_total_segundos\n";
+    for (const auto& line : results) {
+        log_file << line << "\n";
+    }
+
+    std::cout << "Todos os clientes terminaram. Log salvo em: log_clientes_cpp.csv\n";
+
+    return 0;
 }

@@ -31,7 +31,7 @@ class Server:
                 
                 if not data:
                     break
-                print(f"Recebido: {data.decode()}")
+                print(f"[{self.name}] Mensagem recebida de {addr}: {data.decode()}")
 
                 self.send("Mensagem recebida com sucesso!", conn)
 
